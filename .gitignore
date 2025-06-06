@@ -1,0 +1,38 @@
+# Go build files
+cbtg
+*.exe
+*.out
+*.test
+
+# Dependency directories (for vendored projects)
+vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files (GoLand/IntelliJ)
+.idea/
+*.iml
+
+# Logs and debug
+*.log
+*.swp
+
+# Binaries or build artifacts
+/bin/
+/build/
+/dist/
+
+# Python cache (if you're bundling Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code (if used alongside GoLand)
+.vscode/
+
+# Environment/Secrets (if any)
+.env
+.env.*
