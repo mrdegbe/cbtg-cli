@@ -1,0 +1,20 @@
+# Set default text file handling
+* text=auto
+
+# Explicitly declare line endings
+*.go text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+
+# Treat Go modules & configs as UTF-8
+*.mod text
+*.sum text
+*.toml text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
