@@ -25,7 +25,7 @@ var TourCmd = &cobra.Command{
 
 		fmt.Printf("📚 Generating tour for: %s (format: %s)\n\n", absPath, format)
 
-		script := "../../PycharmProjects/onboardly-core/run_tour.py"
+		script := "../../PycharmProjects/cbtg-core/run_tour.py"
 		pythonCmd := exec.Command("python", script, absPath, "--format", format)
 
 		fmt.Printf("🛠️  Running: %v\n", pythonCmd.Args)

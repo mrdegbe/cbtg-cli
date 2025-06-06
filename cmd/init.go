@@ -23,7 +23,7 @@ var InitCmd = &cobra.Command{
 		fmt.Printf("📁 Initializing CBTG at: %s\n", absPath)
 
 		// Define the script and command
-		script := "../../PycharmProjects/onboardly-core/run_summary.py"
+		script := "../../PycharmProjects/cbtg-core/run_summary.py"
 		pythonCmd := exec.Command("python", script, absPath)
 
 		// Print the exact command being executed
