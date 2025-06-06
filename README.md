@@ -1,4 +1,4 @@
-# `cbtg` Codebase Tour Guide CLI 🧭
+# Codebase Tour Guide CLI - `cbtg`
 
 **Codebase Tour Guide (`cbtg`)** is a lightweight CLI tool built in Go that wraps a powerful Python backend to analyze and generate guided tours of your codebase.
 
