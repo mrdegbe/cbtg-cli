@@ -73,4 +73,4 @@ cbtg tour . --format text
 
 ## 📜 License
 
-MIT © \Raymond Degbe
+MIT © Raymond Degbe
