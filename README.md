@@ -20,7 +20,7 @@
 Clone the repo and build:
 
 ```bash
-git clone https://github.com/yourname/cbtg-cli.git
+git clone https://github.com/mrdegbe/cbtg-cli.git
 cd cbtg-cli
 go build -o cbtg
 ````
